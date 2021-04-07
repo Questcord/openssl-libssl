@@ -1,0 +1,23 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "OpenSSL - libssl",
+    "id": "openssl-libssl",
+    "version": "1.0.0",
+    "url": "https://github.com/Questcord/openssl-libssl",
+    "additionalData": {
+      "branchName": "version-1.1.1k",
+      "overrideSoName": "libssl.so",
+      "soLink": "https://github.com/Questcord/openssl-libssl/releases/download/1.1.1k/libssl.so"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "openssl-libcrypto",
+      "versionRange": "1.0.0",
+      "additionalData": {}
+    }
+  ],
+  "additionalData": {}
+}
